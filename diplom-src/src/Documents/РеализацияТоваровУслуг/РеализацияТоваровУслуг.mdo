@@ -72,6 +72,7 @@
   <defaultListForm>Document.РеализацияТоваровУслуг.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <registerRecords>AccumulationRegister.ОбработкаЗаказов</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыПоРаботам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="c7ac2c20-577c-4b41-9689-ee5f9e0b5bea">
@@ -410,4 +411,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="61d8b097-1cc4-4657-9d4f-bdc1be41ee24">
+    <name>ПФ_MXL_ВКМ_Акт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт об оказанных услугах</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

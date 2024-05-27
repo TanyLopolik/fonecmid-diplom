@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13f4790e-f75f-48bf-a66a-48b56ff23559">
+  <producedTypes>
+    <objectType typeId="32380edb-5a28-4bcc-8368-756741332103" valueTypeId="bf9e0c20-3576-41b9-b370-9fd9170f835e"/>
+    <managerType typeId="4550b844-5897-4103-a9a7-a8dbc55b7261" valueTypeId="9d15d82e-c481-4383-b5d8-7effd192cff9"/>
+  </producedTypes>
+  <name>ВКМ_ВыработкаСпециалистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выработка специалистов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВКМ_ВыработкаСпециалистов.Template.Макет</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="8094e14c-3559-4169-ac90-736c80789a43">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

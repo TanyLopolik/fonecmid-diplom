@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7630d411-dc02-4cd4-a370-f8890d6a6c4e">
+  <producedTypes>
+    <objectType typeId="38f91cea-76e8-467d-a00d-1706160551ec" valueTypeId="965f0185-2095-43d1-aa64-1ece29ea9278"/>
+    <refType typeId="0a214738-1f79-4777-91d5-38f40471d84b" valueTypeId="f0f749b4-1bf7-49d8-8738-dac85b608e58"/>
+    <selectionType typeId="cd91bfb4-f937-4bef-99b6-c54adca510c1" valueTypeId="e460d6d1-fdeb-4eea-8814-ee4be9a33af7"/>
+    <listType typeId="2c2b412e-f574-403f-a731-5648caa49f0f" valueTypeId="35ab2c69-26a3-4a71-88de-4876d5a703fa"/>
+    <managerType typeId="981e4bfc-1b02-4e33-8681-06542c201e1a" valueTypeId="034a66ba-442b-423f-94f5-543e1248c028"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТелеграмБоту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления телеграм-боту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bbc3acef-1dbc-4f77-97d4-e970bf518569">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
